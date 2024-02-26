@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+   {% load static %}
+{#    <img src="{% static 'css/im' %}" alt="">#}
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<a href="{% url 'my_index' %}">home</a>
+<a href="{% url 'my_aboutus' %}">about</a>
+<a href="{% url 'my_contact' %}">contact</a>
+<a href="{% url 'my_gallery' %}">gallery</a>
+<a href="{% url 'my_service' %}">services</a>
+
+<h1>gallery</h1>
+<img src="{% static 'img/skilli 1.jpeg'%}" width="400" height="300" alt="">
+<img src="{% static 'img/skilli2.jpeg'%}" width="400"height="400" alt="">
+<img src="{% static 'img/skilli3.jpeg'%}" width="400"height="400" alt="">
+<img src="{% static 'img/skilli4.jpeg'%}" width="400" height="400" alt="">
+
+</body>
+</html>

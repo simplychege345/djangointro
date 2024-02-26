@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<a href="{% url 'my_index' %}">home</a>
+<a href="{% url 'my_aboutus' %}">about</a>
+<a href="{% url 'my_contact' %}">contact</a>
+<a href="{% url 'my_gallery' %}">gallery</a>
+<a href="{% url 'my_service' %}">services</a>
+
+<h1>This is my homepage</h1>
+<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus magnam numquam quae quo. Cupiditate, debitis dolor dolores ducimus id ipsa labore natus numquam officiis qui, recusandae sequi suscipit tempore voluptate?</P>
+
+</body>
+</html>
